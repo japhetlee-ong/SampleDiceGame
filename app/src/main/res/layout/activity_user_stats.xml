@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserStatsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="User Stats"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME" />
+
+        <TextView
+            android:id="@+id/txt_five_rolled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIVE ROLLED" />
+
+        <TextView
+            android:id="@+id/txt_four_rolled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME" />
+
+        <TextView
+            android:id="@+id/txt_three_rolled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIVE ROLLED" />
+
+        <TextView
+            android:id="@+id/txt_two_pairs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME" />
+
+        <TextView
+            android:id="@+id/txt_pair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIVE ROLLED" />
+
+        <TextView
+            android:id="@+id/txt_full_house"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME" />
+
+        <TextView
+            android:id="@+id/txt_straight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIVE ROLLED" />
+
+        <TextView
+            android:id="@+id/txt_nothing_special"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIVE ROLLED" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_go_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E1E"
+            android:text="Go back" />
+
+        <Button
+            android:id="@+id/btn_reset_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="Reset Stats" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
